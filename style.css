@@ -52,6 +52,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    border: 2px solid rgb(199, 35, 35);
 }
 
 .container {
@@ -62,10 +63,13 @@ header {
 
 header h1 {
     float: left;
+    border: 2px solid rgb(199, 35, 35);
 }
 
 header nav {
     float: right;
+    border: 2px solid rgb(199, 35, 35);
+    margin-top: 30px;
 }
 
 header nav ul {
@@ -85,13 +89,14 @@ header nav ul li a {
 }
 
 #hero {
-    background: url('images/hero.jpg') no-repeat center center/cover;
+    background: url('images/gh.jpg') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 2px solid #000;
 }
 
 .section {
@@ -109,16 +114,18 @@ header nav ul li a {
 }
 
 .about-content img {
-    border-radius: 50%;
+    border-radius: 10%;
     margin-right: 20px;
     width: 150px;
     height: 150px;
+    border: 2px solid #000;
 }
 
 .experience-list, .project-gallery, .skills-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    border: 2px solid #000;
 }
 
 .experience-item, .project-item, .skill-item {
