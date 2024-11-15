@@ -1,0 +1,165 @@
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.experience-list, .project-gallery, .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.experience-item, .project-item, .skill-item {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.skill-progress {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.progress-bar {
+    background: #00b4d8;
+    height: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    background: #00b4d8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #00b4d8;
+}
