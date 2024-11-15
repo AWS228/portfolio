@@ -89,7 +89,7 @@ header nav ul li a {
 }
 
 #hero {
-    background: url('images/gh.jpg') no-repeat center center/cover;
+    background: url('images/df.png') no-repeat center center/cover;
     color: #fff;
     height: 100vh;
     display: flex;
@@ -111,6 +111,7 @@ header nav ul li a {
 .about-content {
     display: flex;
     align-items: center;
+    border: 2px solid #000;
 }
 
 .about-content img {
